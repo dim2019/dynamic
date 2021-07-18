@@ -22,3 +22,13 @@ next.onclick = function() {
         i++;
     }
 }
+prev.onclick = function() {
+
+    if (i > 0) {
+        hero.style.backgroundImage = 'url("' + backgroundImg[i - 1] + '")'
+        thumbnail[i - 1].classList.add("active")
+        thumbnail[i].classList.remove("active")
+        i--;
+
+    }
+}
