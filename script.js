@@ -32,8 +32,3 @@ prev.onclick = function() {
 
     }
 }
-thumbnail[0].onclick = function() {
-    hero.style.backgroundImage = backgroundImg[0]
-
-    i++
-}
